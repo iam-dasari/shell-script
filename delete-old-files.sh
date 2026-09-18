@@ -2,7 +2,7 @@
 
 DIR=$1
 
-FILES=$(find "$DIR" -type f -mmin +60 -print)
+FILES=$(find "$DIR" -type f -mmin +60)
 
 if [ -z "$FILES" ]; then
     echo "No files older than 60 minutes found in $DIR."
