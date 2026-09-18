@@ -1,6 +1,7 @@
 # Shell Scripts
 
 1. install-packages.sh
+
 How to Run
 ```
 sudo sh install-packages.sh
@@ -16,6 +17,7 @@ Starting nginx... ...  SUCCESS
 ```
 
 2. dir-file-exist.sh
+
 How to Run
 ```
 sh dir-file-exist.sh
